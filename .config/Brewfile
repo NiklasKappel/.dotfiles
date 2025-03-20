@@ -4,6 +4,7 @@
 brew "fish"
 brew "neovim"
 brew "stow"
+brew "tree"
 
 cask "middleclick"
 
