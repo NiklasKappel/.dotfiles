@@ -1,0 +1,11 @@
+# See: https://matthiasportzel.com/brewfile/
+# Sync using: `brew update && brew bundle install --cleanup --file=~/.config/Brewfile && brew upgrade`
+
+brew "fish"
+brew "neovim"
+brew "stow"
+
+cask "middleclick"
+
+# The packages below are not managed by brew.
+# cask "hyper"
