@@ -3,10 +3,14 @@
 
 brew "fish"
 brew "neovim"
+brew "ripgrep"
 brew "stow"
 brew "tree"
 
+cask "hyper"
+cask "linearmouse"
 cask "middleclick"
 
-# The packages below are not managed by brew.
-# cask "hyper"
+# The packages below are not installed.
+# cask "adguard"  # Requires sudo. Use the adguard Safari extension instead.
+# cask "hiddenbar"  # Not verified by Apple, purely cosmetic.
