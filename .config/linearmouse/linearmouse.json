@@ -2,18 +2,12 @@
   "$schema" : "https:\/\/schema.linearmouse.app\/0.10.0",
   "schemes" : [
     {
-      "scrolling" : {
-        "distance" : {
-          "vertical" : 3
-        },
-        "speed" : {
-          "vertical" : 0
-        },
-        "acceleration" : {
-          "vertical" : 1
-        },
-        "reverse" : {
-          "vertical" : false
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productName" : "ROCCAT Kone Pure Optical",
+          "vendorID" : "0x1e7d",
+          "productID" : "0x2db4"
         }
       },
       "buttons" : {
@@ -24,12 +18,18 @@
         "acceleration" : 2,
         "speed" : 0.0689655172413792768
       },
-      "if" : {
-        "device" : {
-          "productID" : "0x2db4",
-          "productName" : "ROCCAT Kone Pure Optical",
-          "category" : "mouse",
-          "vendorID" : "0x1e7d"
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "reverse" : {
+          "vertical" : false
+        },
+        "distance" : {
+          "vertical" : 10
+        },
+        "speed" : {
+          "vertical" : 0
         }
       }
     }
