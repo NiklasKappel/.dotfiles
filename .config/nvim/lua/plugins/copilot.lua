@@ -1,5 +1,6 @@
 return {
 	"zbirenbaum/copilot.lua",
+	enabled = false,
 	opts = {
 		suggestion = {
 			auto_trigger = true,

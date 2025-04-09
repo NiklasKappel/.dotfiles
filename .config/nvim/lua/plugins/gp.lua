@@ -1,5 +1,6 @@
 return {
 	"robitx/gp.nvim",
+	enabled = false,
 	opts = {
 		chat_free_cursor = true,
 		providers = {
