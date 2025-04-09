@@ -5,6 +5,7 @@ brew "fd"
 brew "fish"
 brew "htop"
 brew "neovim"
+brew "node"
 brew "ripgrep"
 brew "stow"
 brew "tlrc"
@@ -15,7 +16,3 @@ cask "font-dejavu-sans-mono-nerd-font"
 cask "hyper"
 cask "linearmouse"
 cask "middleclick"
-
-# The packages below are not installed.
-# cask "adguard"  # Requires sudo. Use the adguard Safari extension instead.
-# cask "hiddenbar"  # Not verified by Apple, purely cosmetic.

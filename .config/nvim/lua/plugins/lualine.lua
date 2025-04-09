@@ -1,0 +1,15 @@
+return {
+	"nvim-lualine/lualine.nvim",
+	config = function()
+		vim.opt.showmode = false
+		require("lualine").setup({
+			options = {
+				disabled_filetypes = { "NvimTree" },
+			},
+			sections = {
+				lualine_b = { "branch", "diagnostics" },
+				lualine_x = { "filetype" },
+			},
+		})
+	end,
+}
