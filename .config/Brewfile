@@ -1,12 +1,17 @@
 # See: https://matthiasportzel.com/brewfile/
 # Sync using: `brew update && brew bundle install --cleanup --file=~/.config/Brewfile && brew upgrade`
 
+brew "fd"
 brew "fish"
+brew "htop"
 brew "neovim"
 brew "ripgrep"
 brew "stow"
+brew "tlrc"
 brew "tree"
+brew "uv"
 
+cask "font-dejavu-sans-mono-nerd-font"
 cask "hyper"
 cask "linearmouse"
 cask "middleclick"
