@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CheckTestRelease</key>
+	<false/>
 	<key>Default Bookmark Guid</key>
 	<string>F2F748E1-B22E-471E-88B9-81AC664A54AA</string>
 	<key>EnableDivisionView</key>
@@ -2277,6 +2279,8 @@
 			<false/>
 			<key>Shortcut</key>
 			<string></string>
+			<key>Show Mark Indicators</key>
+			<false/>
 			<key>Silence Bell</key>
 			<false/>
 			<key>Smart Cursor Color (Dark)</key>
