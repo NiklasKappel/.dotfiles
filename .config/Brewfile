@@ -13,7 +13,7 @@ brew "tree"
 brew "uv"
 
 cask "font-dejavu-sans-mono-nerd-font"
-cask "gpt4all"
+cask "gpt4all"  # requires manual install
 cask "iterm2"
 cask "linearmouse"
 cask "middleclick"
