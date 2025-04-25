@@ -1,4 +1,3 @@
-require("config.nvim")
 require("config.lazy")
+require("config.nvim")
 require("config.keymaps")
-require("config.colors")

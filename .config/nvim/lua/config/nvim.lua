@@ -1,12 +1,3 @@
--- compatibility
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-vim.g.loaded_python3_provider = 0
-vim.g.loaded_ruby_provider = 0
-vim.g.loaded_perl_provider = 0
-vim.g.loaded_node_provider = 0
-vim.opt.shell = "/bin/sh"
-
 -- leader keys
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
@@ -49,3 +40,21 @@ vim.keymap.set("c", "<CR>", function()
 	end
 	return "<CR>"
 end, { expr = true })
+
+-- colors
+vim.cmd.colorscheme("vscode")
+
+-- diagnostics
+vim.diagnostic.config({
+	virtual_lines = true,
+})
+
+-- lsp
+vim.lsp.enable({
+	"bashls",
+	"lua_ls",
+	"pyright",
+	"ruff",
+	"taplo",
+	"texlab",
+})

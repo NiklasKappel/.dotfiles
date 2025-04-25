@@ -13,12 +13,11 @@ return {
 	},
 	{
 		"WhoIsSethDaniel/mason-tool-installer.nvim",
-		dependencies = {
-			{ "williamboman/mason.nvim" },
-		},
 		opts_extend = { "ensure_installed" },
 		opts = {
 			ensure_installed = {
+				-- Globally installed linters.
+				-- Keep minimal, as they might conflict with project-specific linters.
 				"shellcheck", -- Run by bashls.
 			},
 		},
