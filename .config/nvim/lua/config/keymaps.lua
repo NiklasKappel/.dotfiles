@@ -91,15 +91,15 @@ require("which-key").add({
 	{ "<Leader>e", vim.cmd.NvimTreeFindFileToggle, desc = "explorer" },
 	{ "<Leader>q", "<cmd>Trouble diagnostics toggle<cr>", desc = "quickfix" },
 
-	{ "<C-f>", luasnip.expand_or_jump, mode = { "i" }, desc = "expand snippet or jump" },
-	{
-		"<C-b>",
-		function()
-			luasnip.jump(-1)
-		end,
-		mode = { "i" },
-		desc = "jump back",
-	},
+	-- { "<C-f>", luasnip.expand_or_jump, mode = { "i" }, desc = "expand snippet or jump" },
+	-- {
+	-- 	"<C-b>",
+	-- 	function()
+	-- 		luasnip.jump(-1)
+	-- 	end,
+	-- 	mode = { "i" },
+	-- 	desc = "jump back",
+	-- },
 })
 
 -- gp.nvim
