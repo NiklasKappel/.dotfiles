@@ -1,6 +1,17 @@
 {
   "schemes" : [
     {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0x2db4",
+          "vendorID" : "0x1e7d",
+          "productName" : "ROCCAT Kone Pure Optical"
+        }
+      },
+      "buttons" : {
+        "universalBackForward" : true
+      },
       "pointer" : {
         "acceleration" : 1,
         "disableAcceleration" : true
@@ -9,22 +20,39 @@
         "acceleration" : {
           "vertical" : 1
         },
-        "distance" : {
-          "vertical" : "128px"
-        },
         "speed" : {
           "vertical" : 0
+        },
+        "distance" : {
+          "vertical" : "128px"
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "vendorID" : "0xe",
+          "productName" : "BM20X-5.0",
+          "productID" : "0x3412"
         }
       },
       "buttons" : {
         "universalBackForward" : true
       },
-      "if" : {
-        "device" : {
-          "vendorID" : "0x1e7d",
-          "productName" : "ROCCAT Kone Pure Optical",
-          "productID" : "0x2db4",
-          "category" : "mouse"
+      "pointer" : {
+        "acceleration" : 1,
+        "disableAcceleration" : true
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "speed" : {
+          "vertical" : 0
+        },
+        "distance" : {
+          "vertical" : "128px"
         }
       }
     }
