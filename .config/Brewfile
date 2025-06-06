@@ -24,3 +24,6 @@ cask "maccy"
 cask "middleclick"
 cask "rectangle"
 cask "visual-studio-code"
+
+# The packages below are not managed by brew.
+# cask "displaylink"  # requires sudo
