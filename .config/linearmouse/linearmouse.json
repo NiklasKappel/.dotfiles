@@ -24,7 +24,7 @@
           "vertical" : 0
         },
         "distance" : {
-          "vertical" : "64px"
+          "vertical" : "128px"
         }
       }
     },
@@ -52,7 +52,7 @@
           "vertical" : 0
         },
         "distance" : {
-          "vertical" : "64px"
+          "vertical" : "128px"
         }
       }
     }
