@@ -45,6 +45,12 @@ return {
 		--
 		-- See the fuzzy documentation for more information
 		fuzzy = { implementation = "prefer_rust_with_warning" },
+
+		-- Make cmdline's behavior match the default mode
+		cmdline = {
+			keymap = { preset = "inherit" },
+			completion = { menu = { auto_show = true } },
+		},
 	},
 	opts_extend = { "sources.default" },
 }

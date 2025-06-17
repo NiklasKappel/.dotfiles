@@ -31,16 +31,6 @@ vim.api.nvim_exec2(
 	{}
 )
 
--- command completion
-vim.opt.wildignorecase = true
-vim.opt.wildmode = "longest:full,full"
-vim.keymap.set("c", "<CR>", function()
-	if vim.fn.pumvisible() == 1 then
-		return "<C-y>"
-	end
-	return "<CR>"
-end, { expr = true })
-
 -- colors
 vim.cmd.colorscheme("vscode")
 
