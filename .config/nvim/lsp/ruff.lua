@@ -30,11 +30,4 @@ return {
 	filetypes = { "python" },
 	root_markers = { "pyproject.toml", "ruff.toml", ".ruff.toml", ".git" },
 	settings = {},
-
-	-- Disable linting in favor of Pyright.
-	init_options = {
-		settings = {
-			lint = { enable = false },
-		},
-	},
 }
