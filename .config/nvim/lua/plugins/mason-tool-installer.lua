@@ -10,6 +10,7 @@ return {
 			-- Keep minimal, as they might conflict with project-specific servers.
 			"bashls",
 			"lua_ls",
+			"marksman",
 			"texlab",
 
 			-- Extended by formatter and linter plugins.

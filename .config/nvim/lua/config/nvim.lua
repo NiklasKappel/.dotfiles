@@ -43,6 +43,7 @@ vim.diagnostic.config({
 vim.lsp.enable({
 	"bashls",
 	"lua_ls",
+	"marksman",
 	"pyright",
 	"ruff",
 	"taplo",
