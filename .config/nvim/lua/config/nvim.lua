@@ -36,7 +36,7 @@ vim.cmd.colorscheme("vscode")
 
 -- diagnostics
 vim.diagnostic.config({
-	virtual_lines = true,
+	virtual_text = true,
 })
 
 -- lsp
