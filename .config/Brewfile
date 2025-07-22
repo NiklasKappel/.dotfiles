@@ -13,6 +13,7 @@ brew "tree"
 brew "uv"
 brew "wget"
 
+cask "alt-tab"
 cask "bitwarden"
 cask "firefox"
 cask "font-dejavu-sans-mono-nerd-font"
