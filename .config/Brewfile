@@ -21,7 +21,6 @@ cask "gpt4all"  # requires manual install
 cask "hyperkey"
 cask "iterm2"
 cask "linearmouse"
-cask "maccy"
 cask "middleclick"
 cask "rectangle"
 cask "visual-studio-code"
