@@ -6,14 +6,20 @@ return {
 	},
 	opts = {
 		ensure_installed = {
-			-- Globally installed language servers.
+			-- Globally installed language servers, formatters, and linters.
 			-- Keep minimal, as they might conflict with project-specific servers.
+
+			-- language servers
 			"bashls",
 			"lua_ls",
 			"marksman",
 			"texlab",
 
-			-- Extended by formatter and linter plugins.
+			-- formatters
+			"stylua",
+
+			-- linters
+			"shellcheck", -- Run by bashls.
 		},
 	},
 }

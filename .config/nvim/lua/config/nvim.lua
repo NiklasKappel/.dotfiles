@@ -42,10 +42,12 @@ vim.diagnostic.config({
 -- lsp
 vim.lsp.enable({
 	"bashls",
+	"biome",
 	"lua_ls",
 	"marksman",
 	"pyright",
 	"ruff",
 	"taplo",
 	"texlab",
+	"ts_ls",
 })
