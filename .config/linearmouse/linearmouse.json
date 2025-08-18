@@ -15,15 +15,9 @@
         "disableAcceleration" : true
       },
       "scrolling" : {
-        "acceleration" : {
-          "vertical" : 1
-        },
-        "speed" : {
-          "vertical" : 0
-        },
-        "distance" : {
-          "vertical" : "128px"
-        }
+        "acceleration": 1,
+        "distance" : 3,
+        "speed" : 0
       }
     }
   ]
