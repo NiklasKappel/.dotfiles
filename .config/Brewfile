@@ -3,6 +3,7 @@
 
 brew "fd"
 brew "fish"
+brew "fnm"
 brew "htop"
 brew "neovim"
 brew "node"
