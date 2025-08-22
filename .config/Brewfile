@@ -18,7 +18,6 @@ cask "alt-tab"
 cask "bitwarden"
 cask "firefox"
 cask "font-dejavu-sans-mono-nerd-font"
-cask "gpt4all"  # requires manual install
 cask "hyperkey"
 cask "iterm2"
 cask "linearmouse"
@@ -26,5 +25,3 @@ cask "middleclick"
 cask "rectangle"
 cask "visual-studio-code"
 
-# The packages below are not managed by brew.
-# cask "displaylink"  # requires sudo
