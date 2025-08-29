@@ -1,4 +1,5 @@
 \.DS_Store
+run_stow.sh
 
 # See: https://www.gnu.org/software/stow/manual/html_node/Types-And-Syntax-Of-Ignore-Lists.html
 # Comments and blank lines are allowed.
