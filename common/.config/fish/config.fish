@@ -1,3 +1,6 @@
+set -x EDITOR vi
+set -x VISUAL vi
+
 set -x HOMEBREW_CASK_OPTS --appdir=~/Applications
 set -x HOMEBREW_NO_ANALYTICS 1
 

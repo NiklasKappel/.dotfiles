@@ -1,0 +1,5 @@
+---
+BasedOnStyle: LLVM
+
+AlignAfterOpenBracket: AlwaysBreak
+BreakBeforeBinaryOperators: NonAssignment

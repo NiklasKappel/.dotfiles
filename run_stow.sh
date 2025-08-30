@@ -8,6 +8,8 @@ cd "$DIR" || exit
 
 # Run the stow commands
 stow --no-folding --adopt common/
-if [[ "$(uname)" == "Darwin" ]]; then
+if [[ "$(uname)" == "Linux" ]]; then
+  stow --no-folding --adopt linux/
+elif [[ "$(uname)" == "Darwin" ]]; then
   stow --no-folding --adopt mac/
 fi

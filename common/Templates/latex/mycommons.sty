@@ -1,0 +1,36 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{mycommons}
+
+% pdflatex
+%\RequirePackage[utf8]{inputenc}  % Set input file encoding
+%\RequirePackage[T1]{fontenc}  % Set output file encoding
+%\RequirePackage{lmodern}  % Set font family
+%\DeclareUnicodeCharacter{2009}{\,}  % Fix thin spaces in bibliography
+
+% lualatex
+\RequirePackage{fontspec}  % Load system fonts
+\setmainfont{Latin Modern Roman}  % Set font family
+
+% Packages
+%% Locale
+\RequirePackage{babel}  % Set document language from class options
+%% Text appearance
+\RequirePackage{microtype}  % Improve spacing of text
+%% Floats
+\RequirePackage{graphicx}  % Import graphics
+\RequirePackage{booktabs}  % Make table rules
+%% Specialized typesetting
+\RequirePackage{csquotes}  % Typeset quotations
+\RequirePackage{amsmath}  % Typeset math
+\RequirePackage{amssymb}  % Typeset math symbols
+\RequirePackage{physics}  % Typeset physics
+\RequirePackage{siunitx}  % Typeset values with units
+
+% Package settings
+\RenewCommandCopy\qty\SI%  % Enable \qty from siunitx and \quantity from physics
+\DeclareSIUnit\angstrom{\text{Å}}
+
+% Commands
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
