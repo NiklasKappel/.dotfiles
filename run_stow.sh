@@ -7,4 +7,4 @@ DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$DIR" || exit
 
 # Run the stow command
-stow --no-folding --adopt .
+stow --no-folding --adopt common/
