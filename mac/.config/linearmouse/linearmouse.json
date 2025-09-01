@@ -7,17 +7,17 @@
           "category" : "mouse"
         }
       },
-      "buttons" : {
-        "universalBackForward" : true
+      "scrolling" : {
+        "acceleration" : 1,
+        "distance" : 3,
+        "speed" : 0
       },
       "pointer" : {
         "acceleration" : 1,
         "disableAcceleration" : true
       },
-      "scrolling" : {
-        "acceleration": 1,
-        "distance" : 3,
-        "speed" : 0
+      "buttons" : {
+        "universalBackForward" : true
       }
     }
   ]
