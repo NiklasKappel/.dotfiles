@@ -11,7 +11,7 @@ return {
 			jsonc = { "prettier" },
 			lua = { "stylua" },
 			markdown = { "prettier" },
-			python = { lsp_format = "prefer" },
+			python = { "ruff_fix", "ruff_organize_imports" },
 			sh = { lsp_format = "prefer" },
 			toml = { lsp_format = "prefer" },
 			typescript = { "prettier" },
