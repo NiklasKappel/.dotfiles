@@ -1,6 +1,7 @@
 dconf-editor
 gnome-shell-extension-prefs
 gnome-shell-extension-dash-to-panel
+fish
 git
 stow
 
