@@ -1,0 +1,19 @@
+Package: my-metapackage
+Version: 0.0.1
+Architecture: all
+Maintainer: Niklas Kappel
+Description: A metapackage to declare my default packages
+Depends: cowsay,
+ dconf-editor,
+ fd-find,
+ fish,
+ git,
+ gnome-shell-extension-dash-to-panel,
+ gnome-shell-extension-prefs,
+ htop,
+ ripgrep,
+ stow
+
+
+
+
