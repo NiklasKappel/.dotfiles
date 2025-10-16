@@ -2,8 +2,8 @@
 
 set -e
 
-BREWFILE_PATH="${HOME}/.config/Brewfile"
+brewfile_path="${HOME}/.config/Brewfile"
 
 brew update
-brew bundle install --cleanup --file="${BREWFILE_PATH}"
+brew bundle install --cleanup --file="${brewfile_path}"
 brew upgrade

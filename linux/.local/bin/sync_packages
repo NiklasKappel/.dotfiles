@@ -3,11 +3,11 @@
 set -e
 
 # We must build the package from the actual files, not the symlinks.
-BASE_DIR="${HOME}/.dotfiles/linux/.config/my-metapackage"
-PACKAGE_DIR="${BASE_DIR}/my-metapackage"
-PACKAGE_FILE="${BASE_DIR}/my-metapackage.deb"
+base_dir="${HOME}/.dotfiles/linux/.config/my-metapackage"
+package_dir="${base_dir}/my-metapackage"
+package_file="${base_dir}/my-metapackage.deb"
 
-dpkg-deb --root-owner-group --build "$PACKAGE_DIR" "$PACKAGE_FILE"
-sudo apt install "$PACKAGE_FILE"
+dpkg-deb --root-owner-group --build "$package_dir" "$package_file"
+sudo apt install "$package_file"
 sudo apt autoremove
-rm "$PACKAGE_FILE"
+rm "$package_file"
