@@ -1,6 +1,3 @@
-# See: https://matthiasportzel.com/brewfile/
-# Sync using: `brew update && brew bundle install --cleanup --file=~/.config/Brewfile && brew upgrade`
-
 brew "fd"
 brew "fish"
 brew "fnm"
