@@ -4,6 +4,17 @@ set -e
 
 brewfile_path="${HOME}/.config/Brewfile"
 
+echo "Updating package list..."
 brew update
-brew bundle install --cleanup --file="${brewfile_path}"
+
+echo "Installing packages..."
+brew bundle install --file="${brewfile_path}"
+
+echo "Removing packages..."
+brew bundle cleanup --file="${brewfile_path}"
+
+echo "Upgrading packages..."
 brew upgrade
+
+echo "Done."
+

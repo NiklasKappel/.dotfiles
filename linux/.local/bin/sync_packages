@@ -7,11 +7,19 @@ base_dir="${HOME}/.dotfiles/linux/.config/my-metapackage"
 package_dir="${base_dir}/my-metapackage"
 package_file="${base_dir}/my-metapackage.deb"
 
+echo "Updating package list..."
 sudo apt update
 
+echo "Installing packages..."
 dpkg-deb --root-owner-group --build "$package_dir" "$package_file"
 sudo apt install "$package_file"
-sudo apt autoremove
 rm "$package_file"
 
+echo "Removing packages..."
+sudo apt autoremove
+
+echo "Upgrading packages..."
 sudo apt upgrade
+
+echo "Done."
+
