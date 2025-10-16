@@ -1,6 +1,8 @@
 set -x EDITOR vi
 set -x VISUAL vi
 
+fish_add_path "$HOME/.local/bin/"
+
 if status is-interactive
     set fish_greeting
 
@@ -11,3 +13,4 @@ if status is-interactive
     bind \ce nextd-or-forward-word
     bind \cb prevd-or-backward-word
 end
+
