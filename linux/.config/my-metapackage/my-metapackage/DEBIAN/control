@@ -12,5 +12,6 @@ Depends: cowsay,
  gnome-shell-extension-prefs,
  htop,
  ripgrep,
- stow
+ stow,
+ vim
 

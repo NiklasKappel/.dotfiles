@@ -12,8 +12,5 @@ if status is-interactive
     bind \cl forward-char
     bind \ce nextd-or-forward-word
     bind \cb prevd-or-backward-word
-
-    bind ctrl-space complete
-    bind \t accept-autosuggestion
 end
 
