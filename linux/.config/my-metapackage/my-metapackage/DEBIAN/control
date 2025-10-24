@@ -13,7 +13,6 @@ Depends: cowsay,
  htop,
  ripgrep,
  stow,
- tldr-py,
  tree,
  vim
 
