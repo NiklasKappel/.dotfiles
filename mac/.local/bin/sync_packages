@@ -11,10 +11,9 @@ echo "Installing packages..."
 brew bundle install --file="${brewfile_path}"
 
 echo "Removing packages..."
-brew bundle cleanup --file="${brewfile_path}"
+brew bundle cleanup --force --file="${brewfile_path}"
 
 echo "Upgrading packages..."
 brew upgrade
 
 echo "Done."
-

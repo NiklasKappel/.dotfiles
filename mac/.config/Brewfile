@@ -23,4 +23,5 @@ cask "linearmouse"
 cask "middleclick"
 cask "rectangle"
 cask "visual-studio-code"
+cask "zotero"
 
