@@ -41,10 +41,11 @@ vim.diagnostic.config({
 
 -- lsp
 vim.lsp.enable({
+	"basedpyright",
 	"bashls",
 	"lua_ls",
 	"marksman",
-	"pyright",
+	-- "pyright",
 	"ruff",
 	"taplo",
 	"texlab",
