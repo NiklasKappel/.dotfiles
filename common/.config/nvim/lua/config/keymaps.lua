@@ -35,6 +35,7 @@ require("which-key").add({
 	{ ">", ">gv", mode = { "v" } },
 	{ "<", "<gv", mode = { "v" } },
 
+	-- Search and replace.
 	{ "<Leader>s", [[:let @/ = '\<'.expand('<cword>').'\>'<CR>:set hlsearch<CR>]], desc = "search word under cursor" },
 	{ "<Leader>r", [[:%s/\<<C-r><C-w>\>//gc<Left><Left><Left>]], desc = "search and replace", silent = false },
 
