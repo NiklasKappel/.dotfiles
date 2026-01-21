@@ -51,6 +51,9 @@ return {
 			keymap = { preset = "inherit" },
 			completion = { menu = { auto_show = true } },
 		},
+
+		-- Snippets integration
+		snippets = { preset = "luasnip" },
 	},
 	opts_extend = { "sources.default" },
 }
