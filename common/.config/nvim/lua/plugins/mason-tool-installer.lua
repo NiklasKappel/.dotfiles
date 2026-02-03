@@ -1,8 +1,8 @@
 return {
 	"WhoIsSethDaniel/mason-tool-installer.nvim",
 	dependencies = {
-		{ "williamboman/mason.nvim", opts = {} },
 		{ "williamboman/mason-lspconfig.nvim" },
+		{ "williamboman/mason.nvim", opts = {} },
 	},
 	opts = {
 		ensure_installed = {
