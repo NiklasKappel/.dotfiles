@@ -1,10 +1,10 @@
 -- compatibility
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
+vim.g.loaded_node_provider = 0
+vim.g.loaded_perl_provider = 0
 vim.g.loaded_python3_provider = 0
 vim.g.loaded_ruby_provider = 0
-vim.g.loaded_perl_provider = 0
-vim.g.loaded_node_provider = 0
 vim.opt.shell = "/bin/sh"
 
 -- bootstrap
@@ -36,7 +36,6 @@ require("lazy").setup({
 		lazy = false,
 		version = false,
 	},
-	install = { colorscheme = { "vscode" } },
 	performance = {
 		rtp = {
 			disabled_plugins = {
