@@ -25,6 +25,7 @@ cask "iterm2"
 cask "linearmouse"
 cask "middleclick"
 cask "rectangle"
+cask "skim"
 cask "visual-studio-code"
 cask "zotero"
 
