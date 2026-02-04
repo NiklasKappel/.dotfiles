@@ -36,6 +36,9 @@ require("lazy").setup({
 		lazy = false,
 		version = false,
 	},
+	install = {
+		colorscheme = { "vscode" },
+	},
 	performance = {
 		rtp = {
 			disabled_plugins = {
