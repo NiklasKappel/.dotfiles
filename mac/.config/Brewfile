@@ -1,3 +1,4 @@
+brew "bat"
 brew "fd"
 brew "fish"
 brew "fnm"
