@@ -1,4 +1,4 @@
-local tb = require("telescope.builtin")
+local fzf = require("fzf-lua")
 
 local hover_line_diagnostics = function()
 	local float = vim.diagnostic.config().float
@@ -41,32 +41,33 @@ require("which-key").add({
 	-- Compare `:h K`.
 	{ "K", vim.lsp.buf.hover, desc = "hover information" },
 	-- Compare `:h gd`.
-	{ "gd", tb.lsp_definitions, desc = "goto definition" },
-	{ "gi", tb.lsp_implementations, desc = "goto implementation" },
-	{ "gt", tb.lsp_type_definitions, desc = "goto type" },
+	{ "gd", fzf.lsp_definitions, desc = "goto definition" },
+	{ "gD", fzf.lsp_declarations, desc = "goto declaration" },
+	{ "gi", fzf.lsp_implementations, desc = "goto implementation" },
+	{ "gt", fzf.lsp_typedefs, desc = "goto type" },
 
 	{ "<Leader>f", group = "find" },
-	{ "<Leader>f/", tb.current_buffer_fuzzy_find, desc = "in buffer" },
-	{ "<Leader>fb", tb.buffers, desc = "buffers" },
-	{ "<Leader>ff", tb.find_files, desc = "files" },
-	{ "<Leader>fg", tb.live_grep, desc = "with grep" },
-	{ "<Leader>fh", tb.help_tags, desc = "help" },
-	{ "<Leader>fk", tb.keymaps, desc = "keymaps" },
-	{ "<Leader>fr", tb.oldfiles, desc = "recent files" },
-	{ "<Leader>fw", tb.grep_string, desc = "this word" },
+	{ "<Leader>f/", fzf.lgrep_curbuf, desc = "in buffer" },
+	{ "<Leader>fb", fzf.buffers, desc = "buffers" },
+	{ "<Leader>ff", fzf.files, desc = "files" },
+	{ "<Leader>fg", fzf.live_grep_native, desc = "with grep" },
+	{ "<Leader>fh", fzf.helptags, desc = "help" },
+	{ "<Leader>fk", fzf.keymaps, desc = "keymaps" },
+	{ "<Leader>fr", fzf.history, desc = "recent files" },
+	{ "<Leader>fw", fzf.grep_cword, desc = "this word" },
 
 	{ "<Leader>g", group = "goto" },
-	{ "<Leader>gd", tb.lsp_definitions, desc = "definition" },
-	{ "<Leader>gD", tb.diagnostic, desc = "diagnostics" },
-	{ "<Leader>gi", tb.lsp_implementations, desc = "implementation" },
-	{ "<Leader>gr", tb.lsp_references, desc = "references" },
-	{ "<Leader>gt", tb.lsp_type_definitions, desc = "type" },
+	{ "<Leader>gd", fzf.lsp_definitions, desc = "definition" },
+	{ "<leader>gD", fzf.lsp_declarations, desc = "declaration" },
+	{ "<Leader>gi", fzf.lsp_implementations, desc = "implementation" },
+	{ "<Leader>gr", fzf.lsp_references, desc = "references" },
+	{ "<Leader>gt", fzf.lsp_typedefs, desc = "type" },
 	{ "<Leader>gc", group = "calls" },
-	{ "<Leader>gci", tb.lsp_incoming_calls, desc = "incoming" },
-	{ "<Leader>gco", tb.lsp_outgoing_calls, desc = "outgoing" },
+	{ "<Leader>gci", fzf.lsp_incoming_calls, desc = "incoming" },
+	{ "<Leader>gco", fzf.lsp_outgoing_calls, desc = "outgoing" },
 	{ "<Leader>gs", group = "symbols" },
-	{ "<Leader>gsd", tb.lsp_document_symbols, desc = "document" },
-	{ "<Leader>gsw", tb.lsp_workspace_symbols, desc = "workspace" },
+	{ "<Leader>gsd", fzf.lsp_document_symbols, desc = "document" },
+	{ "<Leader>gsw", fzf.lsp_live_workspace_symbols, desc = "workspace" },
 
 	{ "<Leader>h", group = "hover" },
 	{ "<Leader>hd", hover_line_diagnostics, desc = "diagnostics" },
@@ -74,8 +75,11 @@ require("which-key").add({
 	{ "<Leader>hs", vim.lsp.buf.signature_help, desc = "signature" },
 
 	{ "<Leader>l", group = "LSP" },
-	{ "<Leader>la", vim.lsp.buf.code_action, desc = "code action" },
-	{ "<Leader>ld", toggle_diagnostics, desc = "toggle diagnostics" },
+	{ "<Leader>la", fzf.lsp_code_actions, desc = "code action" },
+	{ "<Leader>ld", group = "diagnostics" },
+	{ "<Leader>ldt", toggle_diagnostics, desc = "toggle" },
+	{ "<Leader>ldd", fzf.diagnostics_document, desc = "document" },
+	{ "<Leader>ldw", fzf.diagnostics_workspace, desc = "workspace" },
 	{
 		"<Leader>li",
 		function()
