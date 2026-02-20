@@ -46,6 +46,7 @@ vim.lsp.enable({
 	"bashls",
 	"lua_ls",
 	"ruff",
+	"tailwindcss",
 	"texlab",
 	"ts_ls",
 })
