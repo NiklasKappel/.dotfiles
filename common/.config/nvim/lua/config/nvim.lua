@@ -44,9 +44,9 @@ vim.lsp.enable({
 	"angularls",
 	"basedpyright",
 	"bashls",
+	"biome",
 	"lua_ls",
 	"ruff",
 	"tailwindcss",
 	"texlab",
-	"ts_ls",
 })
