@@ -10,9 +10,11 @@ return {
 			-- Keep minimal, as they might conflict with project-specific servers.
 
 			-- language servers
+			"angularls",
 			"bashls",
 			"lua_ls",
 			"texlab",
+			"ts_ls",
 
 			-- formatters
 			"stylua",
