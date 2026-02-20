@@ -14,7 +14,6 @@ return {
 			"lua_ls",
 			"marksman",
 			"texlab",
-			"ts_ls",
 
 			-- formatters
 			"stylua",

@@ -41,6 +41,7 @@ vim.diagnostic.config({
 
 -- lsp
 vim.lsp.enable({
+	"angularls",
 	"basedpyright",
 	"bashls",
 	"lua_ls",
