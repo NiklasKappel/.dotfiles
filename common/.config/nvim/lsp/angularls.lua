@@ -105,6 +105,7 @@ return {
 			","
 		)
 		local cmd = {
+			"npx",
 			"ngserver",
 			"--stdio",
 			"--tsProbeLocations",
