@@ -45,10 +45,7 @@ vim.lsp.enable({
 	"basedpyright",
 	"bashls",
 	"lua_ls",
-	"marksman",
-	-- "pyright",
 	"ruff",
-	"taplo",
 	"texlab",
 	"ts_ls",
 })

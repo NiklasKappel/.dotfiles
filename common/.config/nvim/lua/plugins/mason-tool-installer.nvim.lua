@@ -12,7 +12,6 @@ return {
 			-- language servers
 			"bashls",
 			"lua_ls",
-			"marksman",
 			"texlab",
 
 			-- formatters
