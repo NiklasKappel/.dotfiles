@@ -15,6 +15,7 @@ return {
 			"lua_ls",
 			"tailwindcss",
 			"texlab",
+			"ts_ls",
 
 			-- formatters
 			"stylua",

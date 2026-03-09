@@ -49,4 +49,5 @@ vim.lsp.enable({
 	"ruff",
 	"tailwindcss",
 	"texlab",
+	"ts_ls",
 })
