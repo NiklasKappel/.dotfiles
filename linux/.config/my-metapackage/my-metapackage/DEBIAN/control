@@ -4,17 +4,21 @@ Architecture: all
 Maintainer: Niklas Kappel
 Description: A metapackage to declare my default packages
 Depends: cowsay,
+ bat,
  dconf-editor,
  fd-find,
  fish,
  flatpak,
+ fzf,
  git,
  gnome-shell-extension-dash-to-panel,
  gnome-shell-extension-prefs,
  gnome-software-plugin-flatpak,
  htop,
+ hunspell-de-de,
  ripgrep,
  stow,
+ tldr-py,
  tree,
  vim
 
