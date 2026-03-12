@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, lib, ... }:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
@@ -58,6 +58,8 @@
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
+
+    ".local/share/fonts/NerdFonts".source = "${pkgs.nerd-fonts.dejavu-sans-mono}/share/fonts/truetype/NerdFonts";
   };
 
   # Home Manager can also manage your environment variables through
@@ -78,6 +80,12 @@
   #
   home.sessionVariables = {
     # EDITOR = "emacs";
+  };
+
+  home.activation = {
+    fontsUpdate = lib.hm.dag.entryAfter ["files"] ''
+      run ${pkgs.fontconfig}/bin/fc-cache -f
+    '';
   };
 
   # Let Home Manager install and manage itself.
