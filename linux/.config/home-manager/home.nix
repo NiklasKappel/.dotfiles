@@ -40,7 +40,6 @@
     fzf
     gcc
     neovim
-    nerd-fonts.dejavu-sans-mono
     nodejs
     ripgrep
   ];
@@ -84,7 +83,7 @@
 
   home.activation = {
     fontsUpdate = lib.hm.dag.entryAfter ["files"] ''
-      run ${pkgs.fontconfig}/bin/fc-cache -f
+      run ${pkgs.fontconfig}/bin/fc-cache
     '';
   };
 
