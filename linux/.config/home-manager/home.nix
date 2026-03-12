@@ -81,12 +81,6 @@
     # EDITOR = "emacs";
   };
 
-  home.activation = {
-    fontsUpdate = lib.hm.dag.entryAfter ["files"] ''
-      run ${pkgs.fontconfig}/bin/fc-cache
-    '';
-  };
-
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 }
