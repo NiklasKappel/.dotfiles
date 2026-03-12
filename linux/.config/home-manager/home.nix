@@ -39,7 +39,6 @@
     fd
     fzf
     gcc
-    git
     neovim
     nerd-fonts.dejavu-sans-mono
     nodejs
