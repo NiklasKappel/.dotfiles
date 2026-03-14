@@ -5,3 +5,4 @@ function conda --wraps 'conda'
     function __conda_add_prompt; end
     conda $argv
 end
+
