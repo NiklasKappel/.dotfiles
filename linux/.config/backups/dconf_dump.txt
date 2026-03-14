@@ -5,7 +5,9 @@ show-warning=false
 show-weekdate=true
 
 [org/gnome/desktop/input-sources]
-xkb-options=['compose:ralt', 'caps:swapescape']
+show-all-sources=true
+sources=[('xkb', 'eu')]
+xkb-options=['caps:swapescape']
 
 [org/gnome/desktop/interface]
 clock-format='24h'
@@ -13,6 +15,7 @@ clock-show-date=false
 clock-show-weekday=false
 enable-animations=false
 enable-hot-corners=false
+monospace-font-name='DejaVuSansM Nerd Font Mono 12'
 show-battery-percentage=true
 
 [org/gnome/desktop/peripherals/keyboard]
@@ -23,9 +26,6 @@ repeat-interval=uint32 20
 accel-profile='flat'
 natural-scroll=false
 speed=0.5
-
-[org/gnome/desktop/screen-time-limits]
-history-enabled=false
 
 [org/gnome/desktop/wm/keybindings]
 close=['<Shift><Super>q']
@@ -51,7 +51,7 @@ screensaver=['<Super>x']
 
 [org/gnome/shell]
 enabled-extensions=['dash-to-panel@jderose9.github.com']
-favorite-apps=['org.gnome.Nautilus.desktop', 'firefox-esr.desktop', 'org.gnome.Terminal.desktop']
+favorite-apps=@as []
 
 [org/gnome/shell/app-switcher]
 current-workspace-only=true
