@@ -1,0 +1,6 @@
+command = /opt/homebrew/bin/fish
+cursor-style-blink = false
+font-family = DejaVuSansM Nerd Font Mono
+font-size = 15
+theme = Kitty Default
+
