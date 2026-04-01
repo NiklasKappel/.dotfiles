@@ -19,7 +19,7 @@
         "acceleration" : 1,
         "distance" : 3,
         "speed" : 0
-      },
+      }
     },
     {
       "if" : {
