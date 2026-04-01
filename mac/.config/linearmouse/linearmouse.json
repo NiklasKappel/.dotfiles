@@ -4,21 +4,39 @@
     {
       "if" : {
         "device" : {
-          "category" : "mouse"
-        }
+          "category" : "mouse",
+        },
+      },
+      "buttons" : {
+        "universalBackForward" : true,
+      },
+      "pointer" : {
+        "acceleration" : 1,
+        "disableAcceleration" : true,
+        "speed" : 0,
       },
       "scrolling" : {
         "acceleration" : 1,
         "distance" : 3,
-        "speed" : 0
+        "speed" : 0,
+      },
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "trackpad",
+        },
       },
       "pointer" : {
         "acceleration" : 1,
-        "disableAcceleration" : true
+        "disableAcceleration" : false,
+        "speed" : 1,
       },
-      "buttons" : {
-        "universalBackForward" : true
-      }
-    }
+      "scrolling" : {
+        "acceleration" : 1,
+        "speed" : 0,
+        "distance" : "auto",
+      },
+    },
   ]
 }
