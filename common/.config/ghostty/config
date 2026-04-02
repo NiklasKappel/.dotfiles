@@ -1,5 +1,21 @@
 command = /opt/homebrew/bin/fish
 cursor-style-blink = false
 font-size = 15
+split-divider-color = #FFFFFF
 theme = Abernathy
+
+keybind = alt+enter=new_tab
+keybind = alt+shift+h=previous_tab
+keybind = alt+shift+l=next_tab
+
+keybind = alt+h=goto_split:left
+keybind = alt+j=goto_split:down
+keybind = alt+k=goto_split:up
+keybind = alt+l=goto_split:right
+
+keybind = alt+space>s>h=new_split:left
+keybind = alt+space>s>j=new_split:down
+keybind = alt+space>s>k=new_split:up
+keybind = alt+space>s>l=new_split:right
+keybind = alt+space>s>x=new_split:auto
 
