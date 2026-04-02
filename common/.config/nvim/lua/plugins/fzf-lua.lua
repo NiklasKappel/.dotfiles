@@ -1,5 +1,8 @@
 return {
 	"ibhagwan/fzf-lua",
-	dependencies = { "nvim-tree/nvim-web-devicons", "nvim-mini/mini.icons" },
+	dependencies = {
+		{ "nvim-mini/mini.icons", opts = {} },
+		{ "nvim-tree/nvim-web-devicons", opts = {} },
+	},
 	opts = {},
 }
