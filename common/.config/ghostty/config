@@ -3,6 +3,7 @@ cursor-style-blink = false
 font-size = 15
 split-divider-color = #FFFFFF
 theme = Abernathy
+window-inherit-working-directory = false
 
 keybind = alt+enter=new_tab
 keybind = alt+shift+h=previous_tab
