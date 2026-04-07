@@ -21,6 +21,7 @@ return {
 				"markdown",
 				"markdown_inline",
 				"printf",
+				"prisma",
 				"python",
 				"query",
 				"regex",

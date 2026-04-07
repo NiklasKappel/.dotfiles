@@ -13,6 +13,7 @@ return {
 			"angularls",
 			"bashls",
 			"lua_ls",
+			"prismals",
 			"tailwindcss",
 			"texlab",
 			"ts_ls",

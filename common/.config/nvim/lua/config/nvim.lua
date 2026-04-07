@@ -47,6 +47,7 @@ vim.lsp.enable({
 	"biome",
 	"lua_ls",
 	"ruff",
+	"prismals",
 	"tailwindcss",
 	"texlab",
 	"ts_ls",
