@@ -1,7 +1,7 @@
 command = /opt/homebrew/bin/fish
 cursor-style-blink = false
 font-size = 15
-split-divider-color = #FFFFFF
+split-divider-color = #EEEEEC
 theme = Abernathy
 window-inherit-working-directory = false
 
