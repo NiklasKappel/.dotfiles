@@ -2,18 +2,12 @@
 
 set -e
 
-brewfile_path="${HOME}/.config/Brewfile"
+brewfile_path="${HOME}/.config/homebrew/Brewfile"
 
 echo "Updating package list..."
 brew update
 
-echo "Installing packages..."
-brew bundle install --file="${brewfile_path}"
-
-echo "Removing packages..."
-brew bundle cleanup --force --file="${brewfile_path}"
-
-echo "Upgrading packages..."
-brew upgrade
+echo "Syncing packages..."
+brew bundle --file="${brewfile_path}" --cleanup
 
 echo "Done."

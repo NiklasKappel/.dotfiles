@@ -30,3 +30,6 @@ cask "skim"
 cask "visual-studio-code"
 cask "zotero"
 
+# AI-Offering
+# tap "azure/functions"
+# brew "azure-functions-core-tools@4"
