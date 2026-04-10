@@ -1,8 +1,6 @@
 command = /opt/homebrew/bin/fish
 cursor-style-blink = false
 font-size = 15
-split-divider-color = #EEEEEC
-theme = Abernathy
 window-inherit-working-directory = false
 
 keybind = alt+enter=new_tab
@@ -20,3 +18,4 @@ keybind = alt+space>s>k=new_split:up
 keybind = alt+space>s>l=new_split:right
 keybind = alt+space>s>x=new_split:auto
 
+config-file = ?auto/theme.ghostty
