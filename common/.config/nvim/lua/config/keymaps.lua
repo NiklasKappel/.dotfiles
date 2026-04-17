@@ -80,16 +80,6 @@ require("which-key").add({
 	{ "<Leader>ldt", toggle_diagnostics, desc = "toggle" },
 	{ "<Leader>ldd", fzf.diagnostics_document, desc = "document" },
 	{ "<Leader>ldw", fzf.diagnostics_workspace, desc = "workspace" },
-	{
-		"<Leader>li",
-		function()
-			vim.lsp.buf.code_action({
-				context = { only = { "source.organizeImports" } },
-				apply = true,
-			})
-		end,
-		desc = "organize imports",
-	},
 	{ "<Leader>lr", vim.lsp.buf.rename, desc = "rename" },
 
 	{ "<Leader>e", vim.cmd.NvimTreeFindFileToggle, desc = "explorer" },
