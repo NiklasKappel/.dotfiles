@@ -1,3 +1,5 @@
+config-file = ?auto/theme.ghostty
+
 command = /opt/homebrew/bin/fish
 cursor-style-blink = false
 font-size = 15
@@ -18,4 +20,11 @@ keybind = alt+space>s>k=new_split:up
 keybind = alt+space>s>l=new_split:right
 keybind = alt+space>s>x=new_split:auto
 
-config-file = ?auto/theme.ghostty
+# Fix Mac keybinds
+key-remap = cmd=ctrl
+keybind = cmd+d=unbind
+keybind = cmd+shift+c=copy_to_clipboard
+keybind = cmd+shift+d=unbind
+keybind = cmd+shift+n=new_window
+keybind = cmd+shift+v=paste_from_clipboard
+
