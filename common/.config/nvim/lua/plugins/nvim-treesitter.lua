@@ -1,7 +1,6 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
 	build = ":TSUpdate",
-	opts = {},
 	init = function()
 		require("nvim-treesitter").install({
 			"bash",
