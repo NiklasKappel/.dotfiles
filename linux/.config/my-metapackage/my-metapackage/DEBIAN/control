@@ -12,6 +12,5 @@ Depends: cowsay,
  gnome-shell-extension-prefs,
  gnome-software-plugin-flatpak,
  hunspell-de-de,
- stow,
  vim
 
