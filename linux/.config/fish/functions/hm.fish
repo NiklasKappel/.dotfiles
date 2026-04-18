@@ -1,4 +1,4 @@
-function hm --wraps='home-manager switch --flake ~/.dotfiles/' --description 'alias hm=home-manager switch --flake ~/.dotfiles/'
-  home-manager switch --flake ~/.dotfiles/ $argv
+function hm --wraps='home-manager switch --flake ~/.dotfiles_nix/' --description 'alias hm=home-manager switch --flake ~/.dotfiles_nix/'
+  home-manager switch --flake ~/.dotfiles_nix/ $argv
         
 end
