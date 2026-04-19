@@ -8,9 +8,9 @@ Depends: cowsay,
  fish,
  flatpak,
  git,
- gnome-shell-extension-dash-to-panel,
  gnome-shell-extension-prefs,
  gnome-software-plugin-flatpak,
  hunspell-de-de,
+ stow,
  vim
 
