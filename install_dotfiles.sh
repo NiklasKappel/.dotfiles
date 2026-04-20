@@ -4,12 +4,12 @@ set -euo pipefail
 dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$dir"
 
-stow --no-folding --adopt common/
+stow --no-folding --restow common
 
 if [[ "$(uname)" == "Linux" ]]; then
-  stow --no-folding --adopt linux/
+  stow --no-folding --restow linux
 elif [[ "$(uname)" == "Darwin" ]]; then
-  stow --no-folding --adopt mac/
+  stow --no-folding --restow mac
 
   # Copy keyboard layout bundle as a real file (not a symlink)
   src="$dir/mac/Library/Keyboard Layouts/EurKEY-Next.bundle"
