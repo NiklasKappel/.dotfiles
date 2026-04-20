@@ -1,0 +1,8 @@
+#!/bin/bash
+set -euo pipefail
+
+base_dir="$HOME/.dotfiles/linux/backups/dconf"
+
+dconf reset -f /
+dconf load / < "$base_dir/dconf_settings.ini"
+dconf dump / > "$base_dir/dconf_dump.ini"
