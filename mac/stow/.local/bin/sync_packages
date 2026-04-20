@@ -1,8 +1,7 @@
 #!/bin/bash
+set -euo pipefail
 
-set -e
-
-brewfile_path="${HOME}/.config/homebrew/Brewfile"
+brewfile_path="${HOME}/.dotfiles/mac/backups/Brewfile"
 
 echo "Updating package list..."
 brew update

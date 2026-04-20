@@ -3,13 +3,13 @@ set -euo pipefail
 
 dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
 
-stow_here() {
-  stow --no-folding --restow --target="$HOME" --dir="$dir" "$@"
+stow_package() {
+  stow --no-folding --restow --target="$HOME" --dir="$dir/$1" stow
 }
 
-stow_here common
+stow_package common
 
 case "$(uname)" in
-  Linux)  stow_here linux ;;
-  Darwin) stow_here mac ;;
+  Linux)  stow_package linux ;;
+  Darwin) stow_package mac ;;
 esac

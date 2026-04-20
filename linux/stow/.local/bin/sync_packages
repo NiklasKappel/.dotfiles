@@ -1,9 +1,7 @@
 #!/bin/bash
+set -euo pipefail
 
-set -e
-
-# We must build the package from the actual files, not the symlinks.
-base_dir="${HOME}/.dotfiles/linux/.config/backups/debian/my-metapackage"
+base_dir="${HOME}/.dotfiles/linux/backups/debian/my-metapackage"
 package_dir="${base_dir}/my-metapackage"
 package_file="${base_dir}/my-metapackage.deb"
 
