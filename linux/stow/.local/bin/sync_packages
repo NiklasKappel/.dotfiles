@@ -20,4 +20,3 @@ echo "Upgrading packages..."
 sudo apt upgrade
 
 echo "Done."
-
