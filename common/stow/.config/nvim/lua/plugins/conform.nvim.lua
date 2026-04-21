@@ -5,6 +5,7 @@ return {
 			lua = { "stylua" },
 			python = { "ruff_organize_imports", "ruff_format" },
 			sh = { lsp_format = "prefer" },
+			yaml = { "prettier" },
 			-- web dev
 			css = { "prettier", "biome" },
 			html = { "prettier", "biome" },

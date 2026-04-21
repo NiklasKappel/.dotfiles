@@ -10,6 +10,6 @@ stow_package() {
 stow_package common
 
 case "$(uname)" in
-  Linux)  stow_package linux ;;
-  Darwin) stow_package mac ;;
+Linux) stow_package linux ;;
+Darwin) stow_package mac ;;
 esac

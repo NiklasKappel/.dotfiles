@@ -3,7 +3,7 @@ set -euo pipefail
 
 base_dir="$HOME/.dotfiles/linux/backups/dconf"
 
-dconf dump / > "$base_dir/dconf_dump_before.ini"
+dconf dump / >"$base_dir/dconf_dump_before.ini"
 dconf reset -f /
-dconf load / < "$base_dir/dconf_settings.ini"
-dconf dump / > "$base_dir/dconf_dump_after.ini"
+dconf load / <"$base_dir/dconf_settings.ini"
+dconf dump / >"$base_dir/dconf_dump_after.ini"

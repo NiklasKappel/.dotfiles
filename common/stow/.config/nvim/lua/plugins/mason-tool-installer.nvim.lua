@@ -19,6 +19,7 @@ return {
 			"ts_ls",
 
 			-- formatters
+			"shfmt", -- Run by bashls.
 			"stylua",
 
 			-- linters
