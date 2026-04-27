@@ -32,7 +32,7 @@ vim.api.nvim_exec2(
 )
 
 -- colors
-vim.cmd.colorscheme("vscode")
+vim.cmd.colorscheme("github_dark_default")
 
 -- diagnostics
 vim.diagnostic.config({
