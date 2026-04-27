@@ -11,6 +11,10 @@ require("which-key").add({
 	{ "<C-k>", "<C-w>k" },
 	{ "<C-l>", "<C-w>l" },
 
+	-- navigate tabs
+	{ "<C-S-h>", "<Cmd>tabprevious<CR>" },
+	{ "<C-S-l>", "<Cmd>tabnext<CR>" },
+
 	-- save buffer
 	{ "<C-s>", "<Cmd>w<CR>" },
 	{ "<C-s>", "<Cmd>w<CR><Esc>", mode = { "i" } },
