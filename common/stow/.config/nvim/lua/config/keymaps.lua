@@ -47,6 +47,7 @@ require("which-key").add({
 	-- find
 	{ "<Leader>f", group = "find" },
 	{ "<Leader>f/", fzf.lgrep_curbuf, desc = "in buffer" },
+	{ "<Leader>fb", fzf.buffers, desc = "buffers" },
 	{ "<Leader>ff", fzf.files, desc = "files" },
 	{ "<Leader>fg", fzf.live_grep_native, desc = "with grep" },
 	{ "<Leader>fh", fzf.helptags, desc = "help" },
