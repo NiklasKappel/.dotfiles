@@ -1,8 +1,8 @@
 config-file = ?auto/theme.ghostty
 
-command = /opt/homebrew/bin/fish
 cursor-style-blink = false
 font-size = 15
+font-feature = -calt, -dlig, -liga
 window-inherit-working-directory = false
 
 keybind = alt+enter=new_tab
