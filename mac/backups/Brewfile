@@ -33,6 +33,9 @@ cask "skim"
 cask "visual-studio-code"
 cask "zotero"
 
+tap "hashicorp/tap"
+brew "hashicorp/tap/terraform"
+
 # AI-Offering
 tap "azure/functions"
 brew "azure/functions/azure-functions-core-tools@4"
