@@ -37,6 +37,7 @@ tap "hashicorp/tap"
 brew "hashicorp/tap/terraform"
 
 # AI-Offering
+brew "azure-cli"
 tap "azure/functions"
 brew "azure/functions/azure-functions-core-tools@4"
 
