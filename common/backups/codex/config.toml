@@ -1,4 +1,0 @@
-[tui]
-status_line = ["model-with-reasoning", "context-window-size", "current-dir", "git-branch", "session-id"]
-status_line_use_colors = true
-
