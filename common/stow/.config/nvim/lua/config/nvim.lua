@@ -48,6 +48,7 @@ vim.lsp.enable({
 	"lua_ls",
 	"ruff",
 	"prismals",
+	"pyright",
 	"tailwindcss",
 	"texlab",
 	"ts_ls",
