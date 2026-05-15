@@ -16,13 +16,9 @@ brew "tree-sitter-cli"
 brew "uv"
 brew "wget"
 brew "yarn"
-
 cask "alt-tab"
 cask "appcleaner"
 cask "bitwarden"
-cask "claude-code"
-cask "codex"
-cask "codex-app"
 cask "firefox"
 cask "ghostty"
 cask "hiddenbar"
@@ -37,6 +33,12 @@ cask "zotero"
 
 tap "hashicorp/tap"
 brew "hashicorp/tap/terraform"
+
+# AI Tools
+brew "anomalyco/tap/opencode"
+cask "claude-code"
+cask "codex"
+cask "codex-app"
 
 # AI-Offering
 brew "azure-cli"
