@@ -28,10 +28,18 @@ cask "linearmouse"
 cask "middleclick"
 cask "rectangle"
 
+# Coding
+brew "bash-language-server"
+brew "lua-language-server"
+brew "shellcheck"
+brew "shfmt"
+brew "stylua"
+
 # Documents
 brew "ghostscript"
 brew "imagemagick"
 brew "texlab"
+brew "tinymist"
 brew "typst"
 cask "skim"
 cask "zotero"
