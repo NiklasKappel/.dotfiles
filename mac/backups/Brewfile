@@ -3,44 +3,51 @@ brew "fd"
 brew "fish"
 brew "fnm"
 brew "fzf"
-brew "ghostscript"
 brew "htop"
-brew "imagemagick"
 brew "neovim"
 brew "ripgrep"
 brew "stow"
-brew "texlab"
 brew "tlrc"
 brew "tree"
 brew "tree-sitter-cli"
 brew "uv"
 brew "wget"
 brew "yarn"
-cask "alt-tab"
-cask "appcleaner"
+
 cask "bitwarden"
 cask "firefox"
 cask "ghostty"
+cask "visual-studio-code"
+
+# Mac
+cask "alt-tab"
+cask "appcleaner"
 cask "hiddenbar"
 cask "hyperkey"
 cask "linearmouse"
 cask "middleclick"
-cask "pika"
 cask "rectangle"
+
+# Documents
+brew "ghostscript"
+brew "imagemagick"
+brew "texlab"
+brew "typst"
 cask "skim"
-cask "visual-studio-code"
 cask "zotero"
 
-tap "hashicorp/tap"
-brew "hashicorp/tap/terraform"
-
-# AI Tools
+# AI
 brew "anomalyco/tap/opencode"
+cask "claude"
 cask "claude-code"
 cask "codex"
 cask "codex-app"
 
-# AI-Offering
+# Cloud
+tap "hashicorp/tap"
+brew "hashicorp/tap/terraform"
+
+# Azure
 brew "azure-cli"
 tap "azure/functions"
 brew "azure/functions/azure-functions-core-tools@4"
