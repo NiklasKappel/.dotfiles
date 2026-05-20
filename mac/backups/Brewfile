@@ -17,6 +17,7 @@ brew "yarn"
 cask "bitwarden"
 cask "firefox"
 cask "ghostty"
+cask "postman"
 cask "visual-studio-code"
 
 # Mac

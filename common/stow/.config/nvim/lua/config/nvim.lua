@@ -41,7 +41,7 @@ vim.diagnostic.config({
 
 -- lsp
 vim.lsp.enable({
-	"angularls",
+	-- "angularls",
 	"basedpyright",
 	"bashls",
 	"biome",
@@ -49,7 +49,7 @@ vim.lsp.enable({
 	"ruff",
 	"prismals",
 	"pyright",
-	"tailwindcss",
+	-- "tailwindcss",
 	"texlab",
 	"tinymist",
 	"ts_ls",
