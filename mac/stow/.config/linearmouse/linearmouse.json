@@ -17,7 +17,7 @@
       },
       "scrolling" : {
         "acceleration" : 1,
-        "distance" : 3,
+        "distance" : "32px",
         "speed" : 0
       }
     },
@@ -34,8 +34,8 @@
       },
       "scrolling" : {
         "acceleration" : 1,
-        "speed" : 0,
         "distance" : "auto"
+        "speed" : 0,
       }
     }
   ]
