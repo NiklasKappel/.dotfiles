@@ -22,6 +22,10 @@ vim.opt.shiftwidth = 2
 vim.opt.softtabstop = 2
 vim.opt.tabstop = 2
 
+-- spell check
+vim.opt.spell = true
+vim.opt.spelllang = "en"
+
 -- mouse menu
 vim.api.nvim_exec2(
 	[[
