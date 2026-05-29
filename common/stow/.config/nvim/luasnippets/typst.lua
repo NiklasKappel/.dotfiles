@@ -1,0 +1,8 @@
+local ls = require("luasnip")
+local i = ls.insert_node
+local s = ls.snippet
+local fmta = require("luasnip.extras.fmt").fmta
+
+return {
+	s({ trig = "pcite", wordTrig = false }, fmta([=[~<>[p.~<>]]=], { i(1), i(2) })),
+}
