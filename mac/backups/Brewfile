@@ -32,6 +32,7 @@ cask "rectangle"
 # Coding
 brew "bash-language-server"
 brew "lua-language-server"
+brew "prettier"
 brew "shellcheck"
 brew "shfmt"
 brew "stylua"

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "formatter": {
+    "ruff": {
+      "disabled": true
+    },
+    "ruff-sort-imports-and-format": {
+      "command": [
+        "sh",
+        "-c",
+        "ruff check --select I --fix \"$1\" && ruff format \"$1\"",
+        "ruff-sort-imports-and-format",
+        "$FILE"
+      ],
+      "extensions": [".py", ".pyi"]
+    }
+  }
+}
