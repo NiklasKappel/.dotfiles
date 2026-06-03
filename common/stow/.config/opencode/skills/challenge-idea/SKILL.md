@@ -1,6 +1,6 @@
 ---
 name: challenge-idea
-description: Challenges the user's ideas in a Q&A session. Use to understand, vet, sharpen, and flesh out user-provided requests, plans, designs, proposals, etc.
+description: Challenges the user's ideas in a Q&A session. Use to understand, vet, sharpen, and flesh out user input. Use when the user asks for feedback, sparring, or brainstorming.
 ---
 
 Interview and challenge the user about the topic by asking questions one at a time. Continue until you reach shared understanding with the user, the user's intent is clear in detail, project-specific terms are explained, and ambiguities or contradictions are resolved. Then, summarize your understanding and ask for confirmation.

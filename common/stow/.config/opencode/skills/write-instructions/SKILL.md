@@ -13,3 +13,5 @@ Prefer verifiable instructions where possible. E.g. "Write at most 50 lines" is 
 
 Group instructions by concern in paragraphs. Order concerns by descending importance to the given task.
 
+Do not include a top-level header in the instruction body.
+
