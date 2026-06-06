@@ -12,6 +12,6 @@ Keep entries concise. Prefer one-line entries in the form `- Term: brief definit
 All of the following points must apply to each glossary entry:
 - A new team member would be confused without the entry.
 - The entry does not reveal implementation details or data schemas.
-- The entry is not obvious to a software developer.
-- The entry is not obvious to a professional working in the business domain of the project.
+- The entry is not obvious to a senior software developer.
+- The entry is not obvious to a junior working in the business domain of the project.
 
