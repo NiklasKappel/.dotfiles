@@ -5,14 +5,14 @@ trust_level = "trusted"
 "gpt-5.5" = 2
 
 [marketplaces.openai-bundled]
-last_updated = "2026-06-08T09:20:46Z"
+last_updated = "2026-06-08T09:32:37Z"
 source_type = "local"
 source = "/Users/Niklas.Kappel/.codex/.tmp/bundled-marketplaces/openai-bundled"
 
-[plugins."browser@openai-bundled"]
+[plugins."sites@openai-bundled"]
 enabled = true
 
-[plugins."sites@openai-bundled"]
+[plugins."browser@openai-bundled"]
 enabled = true
 
 [features]
