@@ -59,8 +59,8 @@ brew "hashicorp/tap/terraform"
 
 # Azure
 brew "azure-cli"
-tap "azure/functions"
-brew "azure/functions/azure-functions-core-tools@4"
+# tap "azure/functions"
+# brew "azure/functions/azure-functions-core-tools@4"
 
 # The following packages require sudo and are installed via Iru instead.
 # cask "citrix-workspace"
