@@ -8,3 +8,6 @@ trust_level = "trusted"
 status_line = ["model-with-reasoning", "current-dir", "git-branch", "permissions", "approval-mode", "context-used", "context-window-size", "thread-title"]
 status_line_use_colors = true
 
+[tui.model_availability_nux]
+"gpt-5.5" = 1
+
