@@ -1,5 +1,6 @@
+personality = "pragmatic"
 [marketplaces.openai-bundled]
-last_updated = "2026-06-08T09:49:40Z"
+last_updated = "2026-06-08T09:51:46Z"
 source_type = "local"
 source = "/Users/Niklas.Kappel/.codex/.tmp/bundled-marketplaces/openai-bundled"
 
@@ -29,3 +30,9 @@ NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER = "Control the in-app browser in conjunc
 BROWSER_USE_CODEX_APP_BUILD_FLAVOR = "prod"
 BROWSER_USE_CODEX_APP_VERSION = "26.602.40724"
 CODEX_CLI_PATH = "/Users/Niklas.Kappel/Applications/Codex.app/Contents/Resources/codex"
+
+[projects."/Users/Niklas.Kappel/Documents/Codex/2026-06-08/hello"]
+trust_level = "trusted"
+
+[projects."/Users/Niklas.Kappel/Documents/Codex/2026-06-08/in-the-future-i-would-like"]
+trust_level = "trusted"
