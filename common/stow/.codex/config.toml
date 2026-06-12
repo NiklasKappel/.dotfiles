@@ -1,7 +1,7 @@
 personality = "pragmatic"
 
 [marketplaces.openai-bundled]
-last_updated = "2026-06-08T09:51:46Z"
+last_updated = "2026-06-09T18:58:35Z"
 source_type = "local"
 source = "/Users/Niklas.Kappel/.codex/.tmp/bundled-marketplaces/openai-bundled"
 
