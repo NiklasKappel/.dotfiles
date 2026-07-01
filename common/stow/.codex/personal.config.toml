@@ -16,3 +16,9 @@ trust_level = "trusted"
 [projects."/Users/Niklas.Kappel/src/personal/utility-skills/main"]
 trust_level = "trusted"
 
+[projects."/Users/Niklas.Kappel/src/work/sandish_bup/main"]
+trust_level = "trusted"
+
+[projects."/Users/Niklas.Kappel/src/work/sandish/main"]
+trust_level = "trusted"
+
