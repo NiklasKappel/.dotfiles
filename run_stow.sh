@@ -4,7 +4,12 @@ set -euo pipefail
 dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
 
 stow_package() {
-  stow --no-folding --restow --target="$HOME" --dir="$dir/$1" stow
+  stow \
+    --no-folding \
+    --restow \
+    --target="$HOME" \
+    --dir="$dir" \
+    "$1"
 }
 
 stow_package common

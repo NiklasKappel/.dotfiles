@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-brewfile_path="${HOME}/.dotfiles/mac/backups/Brewfile"
+brewfile_path="${HOME}/.local/share/dotfiles/Brewfile"
 
 echo "Updating package list..."
 brew update
