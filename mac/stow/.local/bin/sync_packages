@@ -7,6 +7,6 @@ echo "Updating package list..."
 brew update
 
 echo "Syncing packages..."
-brew bundle --file="${brewfile_path}" --cleanup --force
+brew bundle --file="${brewfile_path}" --force
 
 echo "Done."
