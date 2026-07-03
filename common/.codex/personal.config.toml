@@ -1,8 +1,9 @@
+approvals_reviewer = "user"
 model = "gpt-5.5"
 model_reasoning_effort = "xhigh"
+personality = "pragmatic"
 plan_mode_reasoning_effort = "xhigh"
 service_tier = "default"
-approvals_reviewer = "user"
 
 [tui]
 status_line = ["model-with-reasoning", "current-dir", "git-branch", "permissions", "approval-mode", "context-used", "context-window-size", "thread-title"]
@@ -11,15 +12,5 @@ status_line_use_colors = true
 [tui.model_availability_nux]
 "gpt-5.5" = 4
 
-[projects."/Users/Niklas.Kappel/.dotfiles"]
+[projects."/Users/Niklas.Kappel/src/personal/dotfiles"]
 trust_level = "trusted"
-
-[projects."/Users/Niklas.Kappel/src/personal/utility-skills/main"]
-trust_level = "trusted"
-
-[projects."/Users/Niklas.Kappel/src/work/sandish_bup/main"]
-trust_level = "trusted"
-
-[projects."/Users/Niklas.Kappel/src/work/sandish/main"]
-trust_level = "trusted"
-
