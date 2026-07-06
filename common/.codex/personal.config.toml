@@ -14,3 +14,6 @@ status_line_use_colors = true
 
 [projects."/Users/Niklas.Kappel/src/personal/dotfiles"]
 trust_level = "trusted"
+
+[projects."/Users/Niklas.Kappel/src/work/sandish"]
+trust_level = "trusted"
