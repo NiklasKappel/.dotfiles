@@ -21,7 +21,6 @@ cask "postman"
 cask "visual-studio-code"
 
 # Mac
-cask "alt-tab"
 cask "appcleaner"
 cask "hiddenbar"
 cask "hyperkey"
